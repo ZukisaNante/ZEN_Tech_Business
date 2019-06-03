@@ -9,18 +9,42 @@
 
 </head>
 <body onload="checkDate">
+<!--main pages-->
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<!--home page-->
+<div id="Home" class="tabcontent">
   <h1>ZEN-Tech</h1>
-<p>In this website we demonstrate Javascript (Date), HTML and CSS</p>
-
-
+  <p>In this website we demonstrate Javascript (Date), HTML and CSS</p>
+  <!--columns-->
 <div class="row">
   <div class="column left" style="background-color:#aaa;">
 
   </div>
   <div class="column right" style="background-color:#bbb;">
-  
+    
   </div>
 </div>
+<!--end of columns-->
+</div>
+<!--end of home page-->
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+<!--javascript link-->
   <script src="./js/main.js" ></script>
 </body>
 </html>
