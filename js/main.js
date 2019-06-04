@@ -21,7 +21,7 @@ function checkDate(){
 }
 //check to see if open/close
 function status() {
-  var date = new Date();
+  var da = new Date();
   var day = date.getDay();
   var hour = date.getHours();
   //check if its sunday or saturday

@@ -374,3 +374,18 @@ img {
   right: 0;
   cursor: pointer
 }
+/*table*/
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: whitesmoke;
+  width: 100%;
+}
+th, td {
+  padding: 1px;
+  text-align: left;
+}
+#openinghours{
+  background-color:brown;
+  color:black;
+}
