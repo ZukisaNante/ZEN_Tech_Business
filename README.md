@@ -19,8 +19,10 @@ https://zukisanante.github.io/ZEN_Tech_Business/
 > - Date() onload
 > - message - we are open today (p)
 > - Show opening-hours
+> - Add in the code an array of days
 ---
 ## Completed Tasks
 > - Columns created
 > - Date() added 
----
+> - if else statement added for Tuesday 
+--- 
