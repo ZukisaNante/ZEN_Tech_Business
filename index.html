@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/main.css" class="style">
 
 </head>
-<body onload="checkDate()">
+<body onload="checkDate(), dayNow()">
 <!--main pages-->
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
@@ -24,42 +24,41 @@
     <p id="date"></p>
     <!--opening hours-->
     <div id="openinghours">
-      <p id="open" onload="status() " ></p>
       <!--table-->
       <div>
       <table>
         <caption>Opening Hours</caption>
         <tr>
           <th>Days</th>
-          <th id="status"></th>
+          <th>Hours</th>
         </tr>
         <tr>
           <td>Monday</td>
-          <td id="status"></td>
+          <td id="status_one"></td>
         </tr>
         <tr>
           <td>Tuesday</td>
-          <td id="status"></td>
+          <td id="status_two"></td>
         </tr>
          <tr>
-          <td id="status">Wednesday</td>
-          <td id="status"></td>
+          <td>Wednesday</td>
+          <td id="status_three"></td>
         </tr>
          <tr>
           <td>Thursday</td>
-          <td id="status"></td>
+          <td id="status_four"></td>
         </tr>
          <tr>
           <td>Friday</td>
-          <td id="status"></td>
+          <td id="status_five"></td>
         </tr>
          <tr>
           <td>Saturday</td>
-          <td id="status"></td>
+          <td id="status_six"></td>
         </tr>
          <tr>
           <td>Sunday</td>
-          <td id="status">status</td>
+          <td id="status_seven"></td>
         </tr>
       </table>
     </div>
@@ -87,6 +86,7 @@
   <p>Who we are and what we do.</p>
 </div>
 <!--javascript link-->
+<script src="./js/open.js"></script>
   <script src="./js/main.js" ></script>
 </body>
 </html>

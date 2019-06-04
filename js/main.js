@@ -18,9 +18,10 @@ document.getElementById("defaultOpen").click();
 //onload check date
 function checkDate(){
   document.getElementById('date').innerHTML = Date();
+  
 }
 //check to see if open/close
-function status() {
+/*function status() {
   var da = new Date();
   var day = date.getDay();
   var hour = date.getHours();
@@ -33,4 +34,4 @@ function status() {
     console.log('Today is not a weekend and hour is between 12 - 23')
   }
 }
-status();
+status();*/
