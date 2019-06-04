@@ -45,3 +45,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+//onload check date
+function checkDate(){
+  document.getElementById('date').innerHTML = Date();
+}

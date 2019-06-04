@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/main.css" class="style">
 
 </head>
-<body onload="checkDate">
+<body onload="checkDate()">
 <!--main pages-->
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
@@ -21,7 +21,10 @@
   <!--columns-->
 <div class="row">
   <div class="column left" style="background-color:#aaa;">
-
+    <p id="date"></p>
+    <div id="openinghours">
+      <p id="open"></p>
+    </div>
   </div>
   <div class="column right" style="background-color:#bbb;">
     
