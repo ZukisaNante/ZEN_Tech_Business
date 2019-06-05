@@ -391,3 +391,8 @@ th, td {
   background-color:brown;
   color:black;
 }
+#info{
+  background-color: #fff;
+  color: black;
+  text-align: center;
+}
