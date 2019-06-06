@@ -10,8 +10,8 @@
 </head>
 <body onload="checkDate(), dayNow()">
 <!--main pages-->
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" >News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 <!--home page-->
@@ -78,17 +78,17 @@
 <!--end of home page-->
 <div id="News" class="tabcontent">
   <h3>News</h3>
-  <p>Some news this fine day!</p> 
+  <span class="blinking">To Be Continued!</span>
 </div>
 
 <div id="Contact" class="tabcontent">
   <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+  <span class="blinking">To Be Continued!</span>
 </div>
 
 <div id="About" class="tabcontent">
   <h3>About</h3>
-  <p>Who we are and what we do.</p>
+  <span class="blinking">To Be Continued!</span>
 </div>
 <!--javascript link-->
 <script src="./js/open.js"></script>

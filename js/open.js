@@ -1,23 +1,3 @@
-// verifying opening hours
-/*function dayNow() {
-    var greeting;
-    var day = new Date();
-    var time = new Date().getHours();
-    var now = day.toDateString();
-    if (time < 12)  {
-      greeting = "Good morning" + status;
-    } else if (time < 20) {
-      greeting = "Good day";
-    } else {
-      greeting = "Good evening";
-    }
-    document.getElementById("status_four").innerHTML = greeting;
-
-    if (time > 23){
-        greeting = 'Closed!';
-    }
-    document.getElementById("status_four").innerHTML = greeting;
-}*/
 function dayNow() {
 var greeting;
 var day = new Date();
@@ -45,7 +25,6 @@ switch (new Date().getDay()) {
   case  6:
     day = "Saturday";
 }
-//document.getElementById("status_four").innerHTML = "Today is " + day;
 if (time < 12 || now == true)  {
   greeting = "Good morning";
 } else if (time < 20 || now == true) {
