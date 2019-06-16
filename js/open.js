@@ -32,17 +32,19 @@ if (time < 12 || now == true)  {
 } else {
   greeting = "Good evening";
 }
-
-
 if (time > 20 || now == true){
     greeting = 'Closed!';}
-
-
+if (time > 08 && day == "Sunday"){
+  greeting = 'Closed!';
+}
 check();
 function check(){
 if (time>09 && time<20){
-document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are open! ";}
+document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are still open! ";}
 else{
   document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are closed! ";}
+  if (time > 08 && day == "Sunday"){
+    document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are closed! ";
+  }
 }
 }

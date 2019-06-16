@@ -33,8 +33,16 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-
-#Home {background-color: red;}
+/* Create the parallax scrolling effect */
+#Home {
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url("/img/one.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Full height */
+  height: 100%; 
+  }
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
@@ -56,6 +64,8 @@ body, html {
 
 .right {
   width: 75%;
+  background-color: rgb(200, 85, 39);
+  opacity: 0.3;
 }
 
 /* Clear floats after the columns */
@@ -400,13 +410,13 @@ th, td {
   background-color: rgba(13, 17, 5, 0.616);
   color: #f2f2f2;
 }
+
 /*Blinking text for the 3 pages*/
 .blinking{
 	animation:blinkingText 1s infinite;
 }
 #status_four{
-  animation: blinkingText 10s infinite;
-  color: red;
+  animation: blinkingText 0s infinite;
 }
 @keyframes blinkingText{
 	0%{		color: white;	}
