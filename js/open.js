@@ -41,7 +41,7 @@ if (time > 20 || now == true){
 check();
 function check(){
 if (time>09 && time<20){
-document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are still open! ";}
+document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are open! ";}
 else{
   document.getElementById("status_four").innerHTML = greeting + " today is " + day + " and we are closed! ";}
 }
