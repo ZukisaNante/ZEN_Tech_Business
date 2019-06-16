@@ -37,7 +37,7 @@ body, html {
 #Home {
   background-attachment: fixed;
   background-position: top;
-  background-image: url("img/one.jpg"); 
+  background-image: url("/one.jpg"); 
   background-repeat: no-repeat;
   background-size: cover;
   /* Full height */
